@@ -1,0 +1,9 @@
+#!/bin/bash
+
+output=$(getprop | grep thermal-engine)
+
+if [[ $output == *"[stopped]"* ]]; then
+    su -c "start thermal-engine"
+else
+    su -c "stop thermal-engine"
+fi
