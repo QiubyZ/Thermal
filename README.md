@@ -1,4 +1,4 @@
-# Thermal Engine Simple Script
+# Enable/Disable Thermal Engine Service
 start and stop thermal on Redmi Note 9 Pro
 This Script require root user.
 
